@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conatainer__img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.container__title {
+    font-size: 24px;
+    color: #8422e6;
+}
