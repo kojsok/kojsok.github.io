@@ -1,0 +1,128 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+  min-width: 320px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* glob */
+.list-reset {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+/* Начало */
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 40px 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  background-color: rgb(226, 187, 137);
+  font-size: 0px;
+  color: transparent;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.card:hover {
+  background-color: rgb(241, 213, 176);
+}
+
+.card:active {
+  background-color: rgb(204, 159, 100);
+}
+
+.open {
+  font-size: 48px;
+  color: #fff;
+  background-color: #2b18d6;
+  transition: background-color .1s;
+  cursor: default;
+}
+
+.open:hover {
+  background-color: #2b18d6;
+}
+
+.open:active {
+  background-color: #2b18d6;
+}
+
+.success {
+  font-size: 48px;
+  color: #fff;
+  background-color: #25d618;
+  transition: background-color .1s;
+  cursor: default;
+}
+
+.success:hover {
+  background-color: #25d618;
+}
+
+.success:active {
+  background-color: #25d618;
+}
+
+.gamebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 20px 20px;
+  border-radius: 15px;
+  background-color: #d65e18;
+  color: white;
+  font-size: 32px;
+
+}
+
+
+
+
